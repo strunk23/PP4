@@ -1,0 +1,13 @@
+pl\jkanclerz\ecommerce\catalog\ProductCatalog.class
+pl\jkanclerz\ecommerce\catalog\ProductStorage.class
+pl\jkanclerz\creditcard\CreditBelowThresholdException.class
+pl\jkanclerz\ecommerce\catalog\ArrayListProductStorage.class
+pl\jkanclerz\ecommerce\catalog\ProductCatalogController.class
+pl\jkanclerz\creditcard\CreditCard.class
+pl\jkanclerz\ecommerce\catalog\Product.class
+pl\jkanclerz\ecommerce\App.class
+pl\jkanclerz\hello\HelloController.class
+pl\jkanclerz\creditcard\NotEnoughMoneyException.class
+pl\jkanclerz\creditcard\CreditAlreadyAssignedException.class
+pl\jkanclerz\ecommerce\catalog\HashMapProductStorage.class
+pl\jkanclerz\ecommerce\catalog\SqlProductStorage.class

@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: pl.jkanclerz.creditcard.AssertjTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.070 s <<< FAILURE! -- in pl.jkanclerz.creditcard.AssertjTest
+pl.jkanclerz.creditcard.AssertjTest.helloAssertJ -- Time elapsed: 0.047 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual:
+  "Hello World"
+to contain only digits
+but found non-digit character 'H' at index <0>
+	at pl.jkanclerz.creditcard.AssertjTest.helloAssertJ(AssertjTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+pl.jkanclerz.creditcard.AssertjTest.testSomeListExpression -- Time elapsed: 0.006 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected size: 3 but was: 1 in:
+["Jakub"]
+	at pl.jkanclerz.creditcard.AssertjTest.testSomeListExpression(AssertjTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

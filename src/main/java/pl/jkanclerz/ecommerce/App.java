@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Bean;
 import pl.jkanclerz.ecommerce.catalog.ArrayListProductStorage;
 import pl.jkanclerz.ecommerce.catalog.ProductCatalog;
 
-import java.util.ArrayList;
 
 @SpringBootApplication
 public class App {
