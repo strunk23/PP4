@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Bean;
 import pl.jkanclerz.ecommerce.catalog.ArrayListProductStorage;
 import pl.jkanclerz.ecommerce.catalog.ProductCatalog;
 
+import java.math.BigDecimal;
+
 
 @SpringBootApplication
 public class App {
@@ -16,6 +18,9 @@ public class App {
     @Bean
     ProductCatalog createMyCatalog() {
         var catalog = new ProductCatalog(new ArrayListProductStorage());
+        var id1 = catalog.addProduct("Lego set 8083", "Nice one");
+        catalog.changePrice(id1, BigDecimal.valueOf(10, 10));
+
         catalog.addProduct("Lego set 8083", "Nice one");
         catalog.addProduct("Cobi blocks", "Nice one");
 
